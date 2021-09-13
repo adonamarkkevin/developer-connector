@@ -1,25 +1,33 @@
 {
-  "name": "mern-stack-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adonamarkkevin/developer-connector.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adonamarkkevin/developer-connector/issues"
-  },
-  "homepage": "https://github.com/adonamarkkevin/developer-connector#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.0.5",
-    "nodemon": "^2.0.12"
-  }
+	"name": "developer-connector",
+	"version": "1.0.0",
+	"description": "Social network for developers",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"ndm": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adonamarkkevin/developer-connector.git"
+	},
+	"keywords": [],
+	"author": "Mark Kevin Adona",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/adonamarkkevin/developer-connector/issues"
+	},
+	"homepage": "https://github.com/adonamarkkevin/developer-connector#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"concurrently": "^6.2.1",
+		"config": "^3.3.6",
+		"express": "^4.17.1",
+		"express-validator": "^6.12.1",
+		"gravatar": "^1.8.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.5",
+		"nodemon": "^2.0.12",
+		"request": "^2.88.2"
+	}
 }
