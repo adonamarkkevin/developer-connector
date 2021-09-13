@@ -1,0 +1,3 @@
+{
+	"mongoURI": "mongodb+srv://gozpel:pass123@cluster0.pnufc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
